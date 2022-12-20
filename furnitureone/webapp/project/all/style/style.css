@@ -1,0 +1,135 @@
+BODY {
+	FONT-SIZE: 9pt; COLOR: #77878F; LINE-HEIGHT: 160%; FONT-FAMILY: 맑은 고딕,verdana,tahoma; 
+	background-color: white ;
+}
+TABLE {
+	width: 500; margin: auto; text-align: center; border: 1px solid #77878F; border-collapse: collapse; background-color: white ;;
+}
+TR {
+	FONT-SIZE: 9pt; COLOR:#000000; LINE-HEIGHT: 160%; FONT-FAMILY: 맑은 고딕,verdana,tahoma; border: 1px solid #77878F; padding: 5px;
+}
+TD {
+	FONT-SIZE: 9pt; COLOR:#000000; LINE-HEIGHT: 160%; FONT-FAMILY: 맑은 고딕,verdana,tahoma; border: 1px solid #77878F; padding: 5px;
+}
+SELECT {
+	FONT-SIZE: 9pt; COLOR: #77878F; LINE-HEIGHT: 160%; FONT-FAMILY: 맑은 고딕,verdana,tahoma
+}
+DIV {
+	FONT-SIZE: 9pt; COLOR: #fff; LINE-HEIGHT: 160%; FONT-FAMILY: 맑은 고딕,verdana,tahoma
+}
+FORM {
+	FONT-SIZE: 9pt; COLOR: #fff; LINE-HEIGHT: 160%; FONT-FAMILY: 맑은 고딕,verdana,tahoma
+}
+TEXTAREA {
+	BORDER-RIGHT: 1px solid #999999; BORDER-TOP: 1px solid #999999; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid #999999 ; COLOR: #77878F; BORDER-BOTTOM: 1px solid #999999; FONT-FAMILY: 맑은 고딕,verdana; BACKGROUND-COLOR: white
+}
+INPUT {
+	BORDER-RIGHT: 1px solid #999999; BORDER-TOP: 1px solid #999999; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid #999999; COLOR: #77878F; BORDER-BOTTOM: 1px solid #999999; FONT-FAMILY: 맑은 고딕,verdana; HEIGHT: 19px; BACKGROUND-COLOR: #E1E8E7;
+}
+BUTTON {
+	BORDER-RIGHT: 1px solid #999999; BORDER-TOP: 1px solid #999999; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid #999999; COLOR: #77878F; BORDER-BOTTOM: 1px solid #999999; FONT-FAMILY: 맑은 고딕,verdana; HEIGHT: 19px; BACKGROUND-COLOR: #E1E8E7;
+}
+div {background-color: rgb(192, 192, 192);}
+
+.pageNums{
+	FONT-SIZE: 9pt; COLOR:#000000; LINE-HEIGHT: 160%; FONT-FAMILY: 맑은 고딕,verdana,tahoma; 
+	text-decoration:none;
+}
+
+
+A:link {text-decoration:none;color:#E1E8E7}
+A:hover{text-decoration:yes;color:#77878F}
+A:visited {text-decoration:none;color:#89488A}
+
+/* CSS 파일 */
+* {
+    box-sizing: border-box;    /* woidth = 컨텐츠 + padding + border 두께 */
+}
+body {
+    margin: 0 auto;    /* 상하 여백 0, 좌우 auto는 중앙배치 (width 지정해야 적용됨) */
+    color: #3d3d3c;    /* 전체 글씨색 */
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+/* 중앙배치를 위한 css */
+.inner {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 2rem;
+    clear:both;
+}
+header {
+    background-color: #fff; 
+    width: 100%;
+    height: 60px;
+    top : 0;
+    left: 0;
+    position: fixed; /* 위치를 상단에 고정 */
+    z-index: 1000;
+}
+.header-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.header-text {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+section {
+/*  background-color: aqua; */
+    width: 100%;
+    position: relative;
+}
+/* sectiom에 클래스 속성 main이라고 달아둔 것 */
+.main {
+    height: 360px;
+    background-image: url(ha.jpg);
+}
+.title-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.message {
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+.section1 {
+    width: 100%;
+    height: 350px;
+}
+footer {
+   /* background-color: magenta; */
+    margin: 2rem 0;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:1200px) {
+    .inner {
+        max-width: 1900px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
