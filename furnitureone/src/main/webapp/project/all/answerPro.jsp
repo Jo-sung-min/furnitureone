@@ -2,7 +2,7 @@
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="web.team.one.MemberDAO"%>
 <%@page import="com.oreilly.servlet.MultipartRequest"%>
-<%@page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"%>
+<%@page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"%> 
 <%@page import="web.team.one.QnaDTO"%>
 <%@page import="web.team.one.QnaDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
